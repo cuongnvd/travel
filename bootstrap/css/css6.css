@@ -1,0 +1,106 @@
+
+*{
+
+	margin: 0;
+	padding: 0;
+	}
+
+#head ul{
+	list-style-type: none;
+	background: black;
+	text-align: center;
+	font-size: 19px;
+	height: 120px;
+	height: 80px;
+	padding-top: 5px;
+
+}
+#head ul li{
+	color: white;
+	display: inline-table;
+	width: 140px;
+	
+	line-height: 30px;
+	position: relative;
+	text-align: center;
+	
+}
+#header{
+	float: left;
+	height: 90px;
+	width: 50px;
+
+}
+#head ul li a{
+	color: white ;
+	text-decoration: none;
+	display: block;
+	
+}
+#head a{
+	margin-top: 10px;
+
+
+}
+#head ul li a:hover{
+	color: blue;
+	
+}
+
+#head ul li > .sub-head{
+	display:none;
+	position: absolute;/* lenh hien thi dropdown list*/
+
+	}
+#head ul li:hover .sub-head{
+	display: block;
+
+}
+
+
+
+
+
+
+
+
+
+#foot{
+
+ /*	height: 50px;
+    clear: both;
+ 	
+  	text-align: center;
+    background: red;
+*/
+
+ 	border-top:0px solid #999; 
+	height:200px;
+	margin: center;
+	text-align: left; 
+	width:auto;
+	font-size: 15px;
+	margin-bottom: -15px;
+    background: #D8D8D8;
+      padding-top: 20px;
+      padding-left: 120px;
+
+    }
+
+
+    #foot a{
+    	color: #848484;
+    	line-height: 25px;
+   text-decoration: none;
+
+
+    }
+    #foot a:hover{
+    	color: black;
+    }
+
+    #foot p{
+    	line-height: 20px;
+    	}
+
+  

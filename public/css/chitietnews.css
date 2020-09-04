@@ -1,0 +1,108 @@
+
+div.container {
+    width: 100%;
+  
+    padding-bottom: 5%;  
+    height: 1500px;
+}
+
+
+
+nav {
+    float: left;
+
+    width: 65%;
+    margin: 0;
+    padding: 1em;
+    height: 500px;;
+}
+.nav1 {
+    float: left;
+
+    width: 65%;
+    margin: 0;
+    padding: 1em;
+    height: 1000px;
+
+}
+
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+   
+nav ul a {
+    text-decoration: none;
+}
+
+article {
+    margin-left: 170px;
+
+    padding: 1em;
+    overflow: hidden;
+}
+.article1 {
+  width: 100%;
+  height: 450px;
+
+margin-top: 10%;
+}
+.content1{
+  width: 100%;
+  height: 450px;
+
+}
+
+
+
+
+
+input[type=text] {
+          width: 60%;
+          padding: 12px;
+          border: 1px solid #ccc;
+          border-radius: 4px;
+          box-sizing: border-box;
+          margin-top: 6px;
+          margin-bottom: 6px;
+          resize: vertical;
+          margin-left: 20px;
+    
+      }
+     
+        input[type=number] {
+          width: 60%;
+          padding: 12px;
+          border: 1px solid #ccc;
+          border-radius: 4px;
+          box-sizing: border-box;
+          margin-top: 6px;
+          margin-bottom: 16px;
+          resize: vertical;
+      }
+
+      button{
+           width: 30%;
+          padding: 12px;
+          border: 1px solid #ccc;
+          border-radius: 4px;
+          box-sizing: border-box;
+          margin-top: 6px;
+          margin-bottom: 16px;
+          resize: vertical;
+      }
+      input[type=date]{
+        width: 60%;
+          padding: 12px;
+          border: 1px solid #ccc;
+          border-radius: 4px;
+          box-sizing: border-box;
+          margin-top: 6px;
+          margin-bottom: 16px;
+          
+          font-size: 15px;
+        }
+       
+
+

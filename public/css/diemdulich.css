@@ -1,0 +1,83 @@
+    #center{
+
+        width: 100%;
+        height:auto;
+       /* background: red;*/
+        margin: auto;
+  
+      
+
+      }
+      #center1{
+
+        width: 100%;
+        height:30px;
+   
+        margin: auto;
+             margin-left: 550px;
+          margin-top: 0%;
+
+      }
+     
+      .column {
+  float: left;
+  padding: 10px;
+  height: 30%;
+  width: 90%;
+}
+.row{
+
+  width: 90%;
+  height: 1300px;
+  margin-left: 10%;
+  padding-top: 3%;
+
+
+}
+/* Cột bên trái và phải */
+.column.left {
+  width: 40%;
+  height: 600px;
+ /* background: pink;*/
+   text-align: left;
+  list-style: none;
+border: 2px dotted #cccccc;
+margin-right: 5px;
+margin-top: 5px;
+}
+
+.column.left:hover{
+  border: 2px dotted red;
+}
+
+.anh{
+    width: 100%;
+   height: 80%;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: -60px;
+    margin-top: 5px;
+}
+
+.anh1{
+    width: 100%;
+
+    
+}
+
+.anh a img{
+    width: 600px;
+    height: 400px;
+}
+    
+.pagination li{
+    list-style: none;
+   float: left;
+    margin-left: 40px;
+
+    color: red;
+  }
+a{
+  text-decoration: none;
+  color: black;
+}

@@ -1,0 +1,184 @@
+
+div.container {
+    width: 100%;
+  
+    padding-bottom: 5%;  
+    height: 700px;
+}
+
+
+
+nav {
+    float: left;
+
+    width: 65%;
+    margin: 0;
+    padding: 1em;
+    height: 500px;;
+}
+
+
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+   
+nav ul a {
+    text-decoration: none;
+}
+
+article {
+    margin-left: 170px;
+
+    padding: 1em;
+    overflow: hidden;
+}
+.article1 {
+  width: 100%;
+  height: 450px;
+
+margin-top: 10%;
+}
+.content1{
+  width: 100%;
+  height: 450px;
+
+}
+
+
+
+
+
+
+      input[type=text]:hover {
+         
+          border: 1px solid red;
+          
+    
+      }
+     
+        input[type=number] {
+          width: 60%;
+          padding: 12px;
+          border: 1px solid #ccc;
+          border-radius: 4px;
+          box-sizing: border-box;
+          margin-top: 6px;
+          margin-bottom: 16px;
+          resize: vertical;
+      }
+
+      button{
+           width: 30%;
+          padding: 12px;
+          border: 1px solid #ccc;
+          border-radius: 4px;
+          box-sizing: border-box;
+          margin-top: 6px;
+          margin-bottom: 16px;
+          resize: vertical;
+      }
+      input[type=date]{
+        width: 100%;
+          padding: 12px;
+          border: 1px solid #ccc;
+          border-radius: 4px;
+          box-sizing: border-box;
+          margin-top: 6px;
+          margin-bottom: 16px;
+          
+          font-size: 15px;
+        }
+        input[type=date]:hover{
+          border: 1px solid red;
+        }
+          input[type=submit] {
+          background-color:#FE9A2E;
+          color: white;
+          padding: 12px 20px;
+          border: none;
+          border-radius: 4px;
+          cursor: pointer;
+          margin-left: 120px;
+          border: 2px solid #FE9A2E;
+      
+      }
+
+      input[type=submit]:hover {
+          background-color: #FAAC58;
+          border: 2px solid #FE9A2E;
+}
+  input[type=text] {
+          width: 100%;
+          padding: 12px;
+          border: 1px solid #ccc;
+          border-radius: 4px;
+          box-sizing: border-box;
+          margin-top: 6px;
+          margin-bottom: 16px;
+          resize: vertical;
+          margin-left: 0px;
+      }
+      input[type=number] {
+          width: 100%;
+          padding: 12px;
+          border: 1px solid #ccc;
+          border-radius: 4px;
+          box-sizing: border-box;
+          margin-top: 6px;
+          margin-bottom: 16px;
+          resize: vertical;
+      }
+.datcho {
+          width: 80%;
+          margin: auto;
+          border-radius: 5px;
+          background-color: #f2f2f2;
+          padding: 20px;
+          margin-bottom: 2%;
+          margin-top: 2%;
+          border: 2px dotted #cccccc;
+
+
+          }
+             select{
+        width: 100%;
+          padding: 12px;
+          border: 1px solid #ccc;
+          border-radius: 4px;
+          box-sizing: border-box;
+          margin-top: 6px;
+          margin-bottom: 6px;
+          resize: vertical;
+      }
+      select:hover{
+        border: 1px solid red;
+      }
+      .column.left {
+  width: 25%;
+ height: 350px;
+   text-align: left;
+  list-style: none;
+border: 2px dotted #cccccc;
+margin-right: 5px;
+margin-top: 5px;
+margin-left: 0.5rem;
+
+}
+   .row{
+  width: 90%;
+  height: 400px;
+ margin-left: 15%;
+  padding-top: 2%;
+/*padding: 5px;*/
+ display: flex; 
+
+
+}
+.list{
+  width: 100%;
+  height: 50px;
+
+  text-align: center;
+}

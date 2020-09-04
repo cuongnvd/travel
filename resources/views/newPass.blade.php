@@ -1,0 +1,1 @@
+newPass.blade.php
